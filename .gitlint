@@ -1,0 +1,24 @@
+# All these sections are optional, edit this file as you like.
+[general]
+# Ignore certain rules, you can reference them by their id or by their full name
+ignore=body-is-missing
+
+# By default gitlint will ignore merge commits. Set to 'false' to disable.
+ignore-merge-commits=true
+
+# Ignore merge commit and npm version messages.
+[ignore-by-title]
+regex=^([A-Z]+\-[0-9]+ )?Merge.*$|^\d.\d.\d$
+
+[title-max-length]
+line-length=70
+
+[title-match-regex]
+# python like regex (https://docs.python.org/2/library/re.html) that the
+# commit-msg title must be matched to.
+# Note that the regex can contradict with other rules if not used correctly
+# (e.g. title-must-not-contain-word).
+regex=^([A-Z]+\-[0-9]+ )?[A-Z][\w\s\'\(\)\-\.\,]*[^\.\s]$
+
+[body-max-line-length]
+line-length=70
