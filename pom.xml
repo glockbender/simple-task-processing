@@ -4,6 +4,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Simple task library</name>
+    <description>
+        Simple task management
+    </description>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <url>https://github.com/glockbender/simple-task-processing</url>
+
+    <scm>
+        <connection>scm:git:git://github.com/glockbender/simple-task-processing.git</connection>
+        <developerConnection>scm:git:ssh://github.com:glockbender/simple-task-processing.git</developerConnection>
+        <url>github.com/glockbender/simple-task-processing</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Ilya P</name>
+            <email>glockbender@gmail.com</email>
+        </developer>
+    </developers>
+
     <groupId>com.prvz.simpletask</groupId>
     <artifactId>simpletask-parent</artifactId>
     <packaging>pom</packaging>
